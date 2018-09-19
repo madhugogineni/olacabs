@@ -1,10 +1,13 @@
 import React from 'react';
 import '../css/headers.css';
+import Olaimage from '../ola-image.png';
 class Header extends React.Component {
     render() {
         return (
             <div className="header-sticky">
                 <div className="header1 hide-xs">
+                    <div className="pull-left">
+                    </div>
                     <div className="pull-right">
                         <div className="header1-body">
                             <a href="https://partners.olacabs.com/">Drive with Ola</a>
@@ -24,14 +27,21 @@ class Header extends React.Component {
                         <div className="header1-body">
                             <a href="https://help.olacabs.com/support">Support</a>
                         </div>
+                        <div className="clearfix">
+                            ::before
+                            ::after
+                        </div>
                     </div>
                 </div>
                 <div className="header2">
-                    <div classname="pull-left">
-                    
+                    <div className="header2-image">
+                        <a><img src={Olaimage} className="olaimage" alt="ola" /></a>
                     </div>
-                    <div className="pull-right">
-
+                    <div className="header2-links">
+                        <a className="other-links">Ola Select</a>
+                        <a className="other-links">Ola Fleet</a>
+                        <a className="other-links">Features</a>
+                        <a href="/login" className="booknow-link">Book Now</a>
                     </div>
                 </div>
             </div>

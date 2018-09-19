@@ -11,6 +11,10 @@
     overflow: auto;
 }
 
+.header1 .pull-left {
+    float: left;
+}
+
 .header1 .pull-right {
     float: right;
 }
@@ -46,15 +50,45 @@
     }
 }
 
-.header2 {
+.header-sticky .header2 {
     background: white;
-    overflow: auto;
+    padding: 11px 20px 11px 20px;
+    box-shadow: 0px 2px 4px 0px;
+    height: 65px;
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
-.header2 .pull-left {
-    float: left
+.header2 .header2-image {
+    float: left;
 }
 
-.header2 .pull-right {
+.header2 .header2-links {
     float: right;
+}
+
+.header2 .header2-links .other-links {
+    color: black;
+    padding: 11px 22px 11px 22px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header2 .header2-links .other-links:hover {
+    color: #CCE500;
+}
+
+.header2 .header2-links .booknow-link {
+    text-decoration: none;
+    color: black;
+    background: #CCE500;
+    border-radius: 2px 2px 2px 2px;
+    padding: 11px 22px 11px 22px;
+}
+
+.olaimage {
+    width: 120px;
 }
