@@ -1,0 +1,60 @@
+.header-sticky {
+    position: fixed;
+    width: 100%;
+}
+
+.header-sticky .header1 {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background: black;
+    font-size: 13px;
+    overflow: auto;
+}
+
+.header1 .pull-right {
+    float: right;
+}
+
+.header1 .pull-right .header1-body {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0px 15px 0px 15px;
+    vertical-align: top;
+}
+
+.header1 .header1-body a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header1 .header1-body a:hover {
+    color: #CCE500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header1 .header1-body:last-child {
+    padding-right: 0px;
+    border-right: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .hide-xs {
+        display: none !important;
+    }
+}
+
+.header2 {
+    background: white;
+    overflow: auto;
+}
+
+.header2 .pull-left {
+    float: left
+}
+
+.header2 .pull-right {
+    float: right;
+}
