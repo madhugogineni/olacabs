@@ -1,0 +1,12 @@
+.main-div {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+}
+
+.main-div-heading1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}

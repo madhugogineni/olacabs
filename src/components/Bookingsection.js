@@ -15,9 +15,33 @@ class BookingSection extends React.Component {
                         </div>
                         <hr />
                         <div className="option-result">
-                        
+                            <div className="option-result-heading1">Your everyday travel partner</div>
+                            <div className="option-result-heading2">AC Cabs for point to point travel</div>
+                            <div className="inputfields">
+                                <div className="inputfield-labels">PICKUP</div>
+                                <div className="inputfield-body">Current Location</div>
+                            </div>
+                            <div className="inputfields">
+                                <div className="inputfield-labels">DROP</div>
+                                <div className="inputfield-body">Enter drop for Ride Estimate</div>
+                            </div>
+                            <div className="inputfields">
+                                <div className="inputfield-labels">WHEN</div>
+                                <select className="inputfield-body-select">
+                                    <option>Now</option>
+                                    <option>Sechedule for Later</option>
+                                </select>
+                            </div>
+                            <div className="inputfield-button">
+                                Search Cabs
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="data-shifter">
+                    <div className="data-shifter-body">
+                        ejngvdafoskjvbef
+                </div>
                 </div>
             </section>
         )
