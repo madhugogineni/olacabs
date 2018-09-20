@@ -1,5 +1,8 @@
 .header-sticky {
     position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
     width: 100%;
 }
 
@@ -91,4 +94,9 @@
 
 .olaimage {
     width: 120px;
+}
+
+.afterheader {
+    z-index: 10;
+    color: white;
 }

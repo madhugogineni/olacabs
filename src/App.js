@@ -6,10 +6,10 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div>
+        <React.Fragment>
           <Route exact path="/" component={Home} />
           <Route path="/share" component={Share} />
-        </div>
+        </React.Fragment>
       </Router>
     )
   }
