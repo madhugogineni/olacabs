@@ -1,0 +1,74 @@
+.whyridemain-div {
+    position: relative;
+    width: 94%;
+    left: 3%;
+    right: 3%;
+    margin-top: 90px;
+}
+
+.whyridemain-div .maindiv-heading1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+}
+
+.whyridemain-div .maindiv-heading2 {
+    font-size: 18px;
+    color: #9E9E9E;
+}
+
+.whyridemain-div .maindiv-body {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.whyridemain-div .maindiv-body-panel {
+    float: left;
+    width: 50%;
+    height: 150px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.whyridemain-div .maindiv-body-panel:hover {
+    background: #F8F8F8;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.whyridemain-div .maindiv-body-panel:hover .maindiv-body-panel-info h4 {
+    color: #CBE400;
+}
+
+.whyridemain-div .maindiv-body .maindiv-body-panel-image {
+    float: left;
+    width: 164px;
+    height: 108px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.whyridemain-div .maindiv-body .maindiv-body-panel-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.whyridemain-div .maindiv-body .maindiv-body-panel-info {
+    float: left;
+    width: 60%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.whyridemain-div .maindiv-body .maindiv-body-panel-info h4 {
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.whyridemain-div .maindiv-body .maindiv-body-panel-info p {
+    color: #595959;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 24px;
+}

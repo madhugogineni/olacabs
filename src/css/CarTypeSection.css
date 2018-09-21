@@ -1,12 +1,87 @@
-.main-div {
+.cartypemain-div {
     position: relative;
-    width: 70%;
-    left: 15%;
-    right: 15%;
+    width: 94%;
+    left: 3%;
+    right: 3%;
 }
 
-.main-div-heading1 {
+.cartypemain-div .main-div-heading1 {
     font-size: 36px;
     font-weight: bold;
     color: black;
+}
+
+.cartypemain-div .main-div-heading2 {
+    font-size: 16px;
+    font-weight: 200;
+    color: #9E9E9E;
+}
+
+.cartypemain-div .main-div-body {
+    height: 400px;
+    margin-top: 50px;
+    background: #FBFBFC;
+}
+
+.cartypemain-div .columns {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-right: 38px;
+    border: 1px solid white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 10px lightgray;
+}
+
+.cartypemain-div .column-as-link {
+    cursor: pointer;
+    color: black;
+}
+
+.cartypemain-div .column-as-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.cartypemain-div .column-image-div1 {
+    background-image: url("../bookingtype-image1.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.cartypemain-div .column-image-div2 {
+    background-image: url("../bookingtype-image2.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.cartypemain-div .column-image-div3 {
+    background-image: url("../bookingtype-image3.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.cartypemain-div .column-image {
+    visibility: hidden;
+}
+
+.cartypemain-div .column-body {
+    text-decoration: none;
+    color: #4a4a4a;
+    padding: 7px 7px 7px 7px;
+}
+
+.cartypemain-div .column-body h4 {
+    font-weight: 500;
+}
+
+.cartypemain-div .column-body p {
+    font-size: 16px;
+    font-weight: 300;
 }
