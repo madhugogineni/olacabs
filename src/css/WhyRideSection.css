@@ -20,6 +20,7 @@
 .whyridemain-div .maindiv-body {
     width: 100%;
     margin-top: 50px;
+    overflow: auto;
 }
 
 .whyridemain-div .maindiv-body-panel {

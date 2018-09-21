@@ -1,0 +1,103 @@
+.footer-div {
+    width: 100%;
+    color: white;
+    background: #3C3C3C;
+    overflow: auto;
+    padding: 30px 0px 20px 0px;
+}
+
+.footer-div .footer-content {
+    position: relative;
+    width: 94%;
+    left: 3%;
+    right: 3%;
+}
+
+hr {
+    height: 0.2px;
+}
+
+.outstation-route {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    margin-right: 5%;
+}
+
+.outstation-route .route-heading {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.outstation-route .route-body a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.outstation-route .route-body a:hover {
+    color: #8ec44a;
+}
+
+.outstation-routes-expand {
+    text-align: center;
+    font-size: 12px;
+}
+
+hr {
+    background: lightgray;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links .social-link-label {
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.social-links .social-link-icons {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.social-links .social-link-icon {
+    display: inline;
+    margin-right: 5%;
+}
+
+.social-links .countryselect {
+    float: right;
+    width: 20%;
+}
+
+.discover-ola .discover-ola-label {
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.discover-ola .discover-ola-content {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.discover-ola .discover-ola-become-book {
+    float: right;
+    width: 20%;
+}
+
+.discover-ola .discover-ola-item {
+    display: inline;
+    margin-right: 5%;
+}

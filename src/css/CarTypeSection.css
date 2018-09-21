@@ -20,7 +20,7 @@
 .cartypemain-div .main-div-body {
     height: 400px;
     margin-top: 50px;
-    background: #FBFBFC;
+    overflow: auto;
 }
 
 .cartypemain-div .columns {

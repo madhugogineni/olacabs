@@ -5,6 +5,7 @@ import BookingSection from './Bookingsection';
 import CarTypeSection from './CarTypeSection';
 import WhyRideSection from './WhyRideSection';
 import TravelOptionsSection from './TravelOptionsSection';
+import Footer from './Footer';
 class Home extends React.Component {
     render() {
         return (
@@ -13,8 +14,7 @@ class Home extends React.Component {
                 <BookingSection />
                 <CarTypeSection />
                 <WhyRideSection />
-                <TravelOptionsSection />
-                <hr />
+                <Footer />
             </React.Fragment>
         )
     }

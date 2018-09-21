@@ -5,11 +5,13 @@ class TravelOptionsSection extends React.Component {
             <section>
                 <div className="traveldiv">
                     <div className="div-headers">
-                    
+
                     </div>
                     <div className="div-body">
 
                     </div>
+                    <hr />
+                    
                 </div>
             </section>
         )
