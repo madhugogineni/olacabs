@@ -1,5 +1,11 @@
 import React from 'react';
 import '../css/Footer.css';
+import olaIcon from '../ola-icon.svg';
+import fbIcon from '../fb-icon.svg';
+import instaIcon from '../insta-icon.svg';
+import youtubeIcon from '../youtube-icon.svg';
+import twitterIcon from '../twitter-icon.svg';
+
 class Footer extends React.Component {
     render() {
         return (
@@ -55,13 +61,20 @@ class Footer extends React.Component {
                     <hr />
                     <div className="social-links">
                         <div className="social-link-label">Social Links</div>
-                        <div clasName="social-link-icons">
-                            <div className="social-link-icon">fw</div>
-                            <div className="social-link-icon">wdc</div>
-                            <div className="social-link-icon">wc</div>
-                            <div className="social-link-icon">wvd</div>
+                        <div className="social-link-icons">
+                            <div className="social-link-icon">
+                                <img src={fbIcon} />
+                            </div>
+                            <div className="social-link-icon">
+                                <img src={instaIcon} />
+                            </div>
+                            <div className="social-link-icon">
+                                <img src={youtubeIcon} /></div>
+                            <div className="social-link-icon">
+                                <img src={twitterIcon} />
+                            </div>
                         </div>
-                        <div className="countryselect">
+                        <div className="country-select">
                             <select>
                                 <option>India</option>
                                 <option>Australia</option>
@@ -83,6 +96,23 @@ class Footer extends React.Component {
                             <div className="discover-ola-item">Become a driver</div>
                             <div className="discover-ola-item">Book a ride</div>
                         </div>
+                    </div>
+                    <hr />
+                    <div className="terms">
+                        <div className="terms-image-div">
+                            <img src={olaIcon} className="terms-image" />
+                        </div>
+                        <div className="terms-body">
+                            <div>
+                                <div className="term-body-links"><a>Notices</a></div>
+                                <div className="term-body-links"><a>Terms & Conditions</a></div>
+                                <div className="term-body-links"><a>Privacy Policy</a></div>
+                            </div>
+                            <div className="copyright">
+                                Copyright © 2018 ANI Technologies Pvt. Ltd. All rights reserved.
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

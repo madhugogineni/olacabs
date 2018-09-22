@@ -14,6 +14,7 @@ class Home extends React.Component {
                 <BookingSection />
                 <CarTypeSection />
                 <WhyRideSection />
+                <TravelOptionsSection />
                 <Footer />
             </React.Fragment>
         )

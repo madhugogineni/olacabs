@@ -1,3 +1,33 @@
 .traveldiv {
     width: 100%;
 }
+
+.services-provided {
+    position: relative;
+    width: 94%;
+    left: 3%;
+    right: 3%;
+}
+
+.services-provided .service {
+    display: inline-block;
+    width: 28%;
+    margin-right: 5.33%;
+    overflow: auto;
+}
+
+.services-provided .service .service-image {
+    float: left;
+    width: 20%;
+    margin-right: 2%;
+}
+
+.services-provided .service .service-image img {
+    width: 70%;
+    height: 50%;
+}
+
+.services-provided .service .service-body {
+    float: left;
+    width: 65%;
+}

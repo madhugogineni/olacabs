@@ -53,7 +53,8 @@ hr {
 }
 
 .social-links {
-    margin-top: 10px;
+    margin-top: 25px;
+    overflow: auto;
 }
 
 .social-links .social-link-label {
@@ -71,12 +72,24 @@ hr {
 
 .social-links .social-link-icon {
     display: inline;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
-.social-links .countryselect {
+.social-links .country-select {
     float: right;
     width: 20%;
+}
+
+.social-links .country-select select {
+    padding: 10px 20px 10px 20px;
+    background: #3C3C3C;
+    border: 2px solid white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.discover-ola {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .discover-ola .discover-ola-label {
@@ -100,4 +113,38 @@ hr {
 .discover-ola .discover-ola-item {
     display: inline;
     margin-right: 5%;
+}
+
+.terms {
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.terms .terms-image-div {
+    float: left;
+}
+
+.terms .terms-body {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.terms .term-body-links {
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.terms .term-body-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.terms .term-body-links a:hover {
+    text-decoration: none;
+    color: #8ec44a;
+}
+
+.terms .copyright {
+    margin-top: 5px;
 }
