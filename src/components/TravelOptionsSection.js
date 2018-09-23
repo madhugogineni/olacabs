@@ -3,6 +3,9 @@ import '../css/TravelOptionsSection.css';
 import supportIcon from '../support-icon.svg';
 import sosIcon from '../sos-icon.svg';
 import hatIcon from '../hat-icon.svg';
+import appDownlaod from '../app-download.png';
+import microsoftStore from '../microsoft-store.png';
+import playStore from '../play-store.png';
 class TravelOptionsSection extends React.Component {
     render() {
         return (
@@ -11,18 +14,20 @@ class TravelOptionsSection extends React.Component {
                 <div className="download-div">
                     <div className="download-body">
                         <div className="download-heading">
-                            <h3>Download the app for exclusive deals and ease of booking</h3>
-                            <h6>Download the app for exclusive deals and ease of booking</h6>
+                            <h2>Book an Ola from the App</h2>
+                            <div>Download the app for exclusive deals and ease of booking</div>
                         </div>
                         <div className="download-links">
-
+                            <a><img src={playStore} /></a>
+                            <a><img src={microsoftStore} /></a>
+                            <a><img src={microsoftStore} /></a>
                         </div>
                     </div>
-                    <div className="download-image">
-
+                    <div className="download-image-display">
+                        <img src={appDownlaod} className="download-image" />
                     </div>
                 </div>
-                <hr />
+                <hr className="no-margin" />
                 <div className="services-provided">
                     <div className="service">
                         <div className="service-image">
