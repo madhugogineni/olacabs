@@ -2,9 +2,35 @@
     width: 100%;
 }
 
+.ola-fleet {
+    position: relative;
+    width: 94%;
+    left: 3%;
+    right: 3%;
+    padding-top: 60px;
+}
+
+.ola-fleet h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.ola-fleet p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.5;
+    margin-bottom: 5px;
+}
+.fleet-options {
+
+}
+
 .download-div {
     position: relative;
-    height: 400px;
+    height: 330px;
     width: 94%;
     left: 3%;
     right: 3%;
@@ -21,12 +47,15 @@
 }
 
 .download-div .download-body .download-heading h2 {
-    font-weight: bolder;
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
 }
 
 .download-div .download-body .download-heading div {
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .download-div .download-body .download-links {
@@ -35,13 +64,14 @@
 
 .download-div .download-body .download-links a {
     float: left;
-    width: 30%;
+    width: 25%;
+    height: 45px;
     margin-right: 3.33%;
 }
 
 .download-div .download-body .download-links a img {
     width: 90%;
-    
+    height: 100%;
 }
 
 .download-image-display {

@@ -5,11 +5,38 @@ import sosIcon from '../sos-icon.svg';
 import hatIcon from '../hat-icon.svg';
 import appDownlaod from '../app-download.png';
 import microsoftStore from '../microsoft-store.png';
+import appStore from '../app-store.png';
 import playStore from '../play-store.png';
+import fleetAutoImage from '../fleet_auto_image.png';
+import fleetBikeImage from '../fleet_bike_image.png';
+import fleetCarImage from '../fleet_car_image.png';
+import fleetERikshawImage from '../fleet_e_rickshaw_image.png';
+import fleetKaaliPeeliImage from '../fleet_kaali_peeli_image.png';
+import fleetLuxImage from '../fleet_lux_image.png';
+import fleetMicroImage from '../fleet_micro_image.png';
+import fleetMiniImage from '../fleet_mini_image.png';
+import fleetPrimePlayImage from '../fleet_prime_play_image.png';
+import fleetPrimeSuvImage from '../fleet_prime_suv_image.png';
+import fleetSedanImage from '../fleet_sedan_image.png';
+import IconImage from '../_icon_image.png';
+
+
+
 class TravelOptionsSection extends React.Component {
+    constructor(props) {
+        super(props);
+        this.setState = {};
+    }
     render() {
         return (
             <section>
+                <div className="ola-fleet">
+                    <h2>Meet our Awesome Fleet</h2>
+                    <div>The widest variety of cars to choose from</div>
+                </div>
+                <div class="fleet-options">
+
+                </div>
                 <hr />
                 <div className="download-div">
                     <div className="download-body">
@@ -19,7 +46,7 @@ class TravelOptionsSection extends React.Component {
                         </div>
                         <div className="download-links">
                             <a><img src={playStore} /></a>
-                            <a><img src={microsoftStore} /></a>
+                            <a><img src={appStore} /></a>
                             <a><img src={microsoftStore} /></a>
                         </div>
                     </div>
