@@ -10,7 +10,7 @@ class WhyRideSection extends React.Component {
     render() {
         return (
             <section>
-                <div class="whyridemain-div">
+                <div className="whyridemain-div">
                     <div className="maindiv-heading1">Why ride with Ola?</div>
                     <div className="maindiv-heading2">The best way to travel to your destination</div>
                     <div className="maindiv-body">

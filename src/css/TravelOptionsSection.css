@@ -24,8 +24,97 @@
     opacity: 0.5;
     margin-bottom: 5px;
 }
-.fleet-options {
 
+.fleet-options {
+    position: relative;
+    width: 94%;
+    left: 3%;
+    right: 3%;
+    margin-bottom: 40px;
+}
+
+.fleet-options .fleet-vehicle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.fleet-options .fleet-vehicle:hover {
+    background: #CCDB3B;
+}
+
+.fleet-options .fleet-vehicle-onhover {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50px 50px 50px 50px;
+    background: #CCDB3B;
+}
+
+.fleet-options .fleet-vehicle .fleet-vehicle-image {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.fleet-options .fleet-vehicle-onhover .fleet-vehicle-image {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.fleet-options .fleet-label {
+    text-align: center;
+    width: 100%;
+    text-size-adjust: 18px;
+    font-weight: 400;
+}
+
+.fleet-option-display {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to Bottom, #E8E8E8, #FFFFFF);
+}
+
+.fleet-option-display .fleet-option-display-image {
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding-left: 5%;
+    color: #333333;
+}
+
+.fleet-option-display .fleet-option-display-info {
+    float: left;
+    width: 40%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.fleet-option-display .fleet-option-display-info h4 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.fleet-option-display .fleet-option-display-info .fleet-option-display-info-subheading {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.fleet-option-display .fleet-option-display-info .fleet-option-display-info-content {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .download-div {
@@ -116,4 +205,8 @@
 
 hr.no-margin {
     margin-top: 0px;
+}
+
+.gone {
+    display: none !important;
 }

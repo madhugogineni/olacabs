@@ -38,7 +38,7 @@ class BookingSection extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div class="data-shifter">
+                <div className="data-shifter">
                     <div className="data-shifter-body">
                         ejngvdafoskjvbef
                 </div>

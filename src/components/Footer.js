@@ -9,7 +9,7 @@ import twitterIcon from '../twitter-icon.svg';
 class Footer extends React.Component {
     render() {
         return (
-            <div class="footer-div">
+            <div className="footer-div">
                 <div className="footer-content">
                     <h4>Top Visited Cities</h4>
                     <hr />
@@ -92,7 +92,7 @@ class Footer extends React.Component {
                             <div className="discover-ola-item">Contact Us</div>
                             <div className="discover-ola-item">Media Center</div>
                         </div>
-                        <div clasName="discover-ola-become-book">
+                        <div className="discover-ola-become-book">
                             <div className="discover-ola-item">Become a driver</div>
                             <div className="discover-ola-item">Book a ride</div>
                         </div>
