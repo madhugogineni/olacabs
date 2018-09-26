@@ -42,9 +42,9 @@ class BookingSection extends React.Component {
                     <h1 className="bookingsection-heading2">Choose from a range of categories and prices</h1>
                     <div className="rental-form">
                         <div className="options">
-                            <div className="links"><a>CITY TAXI</a></div>
-                            <div className="links"><a>OUTSTATION</a></div>
-                            <div className="links"><a>RENTALS</a></div>
+                            <div className="links"><a className="mainlink">CITY TAXI</a></div>
+                            <div className="links"><a className="alink">OUTSTATION</a></div>
+                            <div className="links"><a className="alink">RENTALS</a></div>
                         </div>
                         <div className="option-result">
                             <div className="option-result-heading1">Your everyday travel partner</div>
