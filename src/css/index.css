@@ -2,9 +2,11 @@
   font-family: 'gentona';
   src: url('../gentona-book.otf');
 }
-
+html {
+  height: 100%;
+}
 body {
   margin: 0;
-  padding-top: 105px;
   font-family: gentona;
+  min-height: 100%;
 }

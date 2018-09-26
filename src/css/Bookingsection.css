@@ -23,7 +23,7 @@
     margin-top: 0;
 }
 
-.rental-form {
+.bookingsection .rental-form {
     border-radius: 5px 5px 5px 5px;
     background: #F5F5F5;
     width: 400px;
@@ -33,18 +33,18 @@
     left: 35px;
 }
 
-.rental-form hr {
+.bookingsection .rental-form hr {
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
-.options {
+.bookingsection .options {
     width: 100%;
     height: 44px;
     overflow: visible;
 }
 
-.options .links {
+.bookingsection .options .links {
     position: relative;
     display: inline-block;
     width: 33.33%;
@@ -54,7 +54,7 @@
     vertical-align: middle;
 }
 
-.options .links a:first-child {
+.bookingsection .options .links a:first-child {
     color: black;
     text-decoration: none;
     background: #CCE500;
@@ -64,7 +64,7 @@
     padding: 5px 7px 5px 7px;
 }
 
-.options .links a {
+.bookingsection .options .links a {
     color: black;
     text-decoration: none;
     font-size: 14px;
@@ -73,13 +73,13 @@
     padding: 5px 7px 5px 7px;
 }
 
-.option-result {
+.bookingsection .option-result {
     height: 268px;
     margin-top: 0px;
     padding: auto;
 }
 
-.option-result-heading1 {
+.bookingsection .option-result-heading1 {
     margin-top: 10px;
     font-size: 16px;
     font-weight: 600;
@@ -87,7 +87,7 @@
     color: black;
 }
 
-.option-result-heading2 {
+.bookingsection .option-result-heading2 {
     font-size: 14px;
     font-weight: 600;
     text-align: center;
@@ -95,7 +95,7 @@
     margin-bottom: 10px;
 }
 
-.option-result .inputfields {
+.bookingsection .option-result .inputfields {
     position: relative;
     left: 3%;
     right: 3%;
@@ -107,7 +107,7 @@
     vertical-align: baseline;
 }
 
-.option-result .inputfield-button {
+.bookingsection .option-result .inputfield-button {
     position: relative;
     left: 3%;
     right: 3%;
@@ -122,14 +122,14 @@
     vertical-align: middle;
 }
 
-.inputfields .inputfield-labels {
+.bookingsection .inputfields .inputfield-labels {
     display: inline;
     vertical-align: middle;
     font-size: 10px;
     margin-right: 10px;
 }
 
-.inputfields .inputfield-body {
+.bookingsection .inputfields .inputfield-body {
     display: inline;
     position: relative;
     vertical-align: middle;
@@ -138,7 +138,7 @@
     font-weight: 600;
 }
 
-.inputfields .inputfield-body-select {
+.bookingsection .inputfields .inputfield-body-select {
     display: inline;
     position: relative;
     vertical-align: middle;
@@ -160,5 +160,67 @@
     top: -48px;
     left: 5%;
     right: 5%;
+}
 
+
+.data-shifter .data-shifter-body .left-click-button {
+    display: inline-block;
+    width: 4%;
+    height: 100%;
+    overflow: auto;
+}
+.data-shifter .data-shifter-body .left-click-button img {
+    margin-left:40%;
+    margin-top: 80%; 
+    width: 30%;
+    height: 20%;
+    cursor: pointer;
+}
+
+.data-shifter .data-shifter-body .data {
+    display: inline-block;
+    width: 92%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.data-shifter .data-shifter-body .data .data-item {
+    display: inline-block;
+    width: 33.33%;
+    height: 100%;
+    overflow: auto;
+}
+.data-shifter .data-shifter-body .data .data-item-invisible {
+    display: none;
+}
+.data-shifter .data-shifter-body .data .data-item .data-shifter-image {
+    float: left;
+    widows: 40%;
+}
+.data-shifter .data-shifter-body .data .data-item .data-shifter-image img{
+    margin-top: 20px;
+    width: 70%;
+    height: 80%;
+    
+}
+.data-shifter .data-shifter-body .data .data-item .data-shifter-content {
+    float: left;
+    width: 60%;
+}
+.data-shifter .data-shifter-body .data .data-item .data-shifter-content h5{
+    color: #48B5FF;
+}
+
+.data-shifter .data-shifter-body .right-click-button {
+    display: inline-block;
+    width: 4%;
+    height: 100%;
+    overflow: auto;
+}
+.data-shifter .data-shifter-body .right-click-button img {
+    margin-left:40%;
+    margin-top: 80%; 
+    width: 30%;
+    height: 20%;
+    cursor: pointer;
 }

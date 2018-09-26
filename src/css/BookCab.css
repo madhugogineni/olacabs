@@ -1,0 +1,153 @@
+.bookcabs {
+    height: 100%;
+
+}
+
+.booking-div {
+    float: left;
+    width: 41%;
+    height: 650px;
+    overflow: scroll;
+    background: #F5F5F5;
+}
+
+.booking-div .heading {
+    width: 100%;
+    overflow: auto;
+}
+
+.booking-div .heading .menu-div {
+    float: left;
+    width: 5%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.booking-div .heading .menu-div .menu-image {
+    width: 100%;
+    height: 100%;
+}
+
+.booking-div .heading .heading-icon {
+    float: left;
+    width: 15%;
+    margin-left: 35%;
+    margin-top: 5px;
+}
+
+.booking-div .heading .heading-icon .heading-icon-image {
+    width: 100%;
+    height: 100%;
+}
+
+.booking-div .heading .login-button {
+    float: right;
+    width: 10%;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.booking-div .heading .login-button a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.booking-div .booking-form {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.booking-div .booking-form .booking-options {
+    display: block;
+    overflow: auto;
+}
+
+.booking-div .booking-form .booking-options a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.bookcabs .booking-div .booking-form .booking-options .booking-option2 {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.bookcabs .booking-div .booking-form .booking-options .booking-option1 {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    margin-left: 10%;
+    background: #C4E042;
+    font-weight: bold;
+}
+
+.bookcabs .booking-div .booking-form .booking-options-content {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bookcabs .booking-div .booking-form .booking-options-content .input-field {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+    background: #e1e1e1;
+    margin-bottom: 15px;
+}
+
+.bookcabs .booking-div .booking-form .booking-options-content .input-field .input-field-label {
+    display: inline;
+    vertical-align: middle;
+    font-size: 10px;
+    margin-right: 10px;
+    background: #e1e1e1;
+    padding-left: 5px;
+    color: #a09f9f;
+}
+.bookcabs .booking-div .booking-form .booking-options-content .input-field .input-field-content {
+    display: inline;
+    position: relative;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    background: #e1e1e1;
+    color: #a09f9f;
+}
+.bookcabs .booking-div .booking-form .booking-options-content .input-field .input-field-select-content {
+    display: inline;
+    position: relative;
+    vertical-align: middle;
+    padding: 5px 60% 5px 0px;
+    border: 0px;
+    background: #e1e1e1;
+}
+.location-off {
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 20%;
+}
+.location-off-image {
+    width: 100%;
+}
+.main-image-div {
+    float: right;
+    width: 59%;
+    height: 100%;
+}
+
+.main-image-div .main-image {
+    width: 100%;
+    height: 100%;
+}

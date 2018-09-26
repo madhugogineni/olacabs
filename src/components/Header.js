@@ -38,7 +38,7 @@ class Header extends React.Component {
                             <a className="other-links">Ola Select</a>
                             <a className="other-links">Ola Fleet</a>
                             <a className="other-links">Features</a>
-                            <a href="/login" className="booknow-link">Book Now</a>
+                            <a href="/bookcab" className="booknow-link">Book Now</a>
                         </div>
                     </div>
                 </header>
